@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FADCC1;
+}
+
+.header {
+    padding: 20px;
+    background-color: #01717B;
+    line-height: 60px;
+    border: 0px solid;
+    border-color: #CA5F00;
+    border-bottom-width: 4px;
+}
+
+.top-button {
+    background-color: #249DA8;
+    font-size: 2em;
+    margin-right: 40px;
+    padding: 10px 50px;
+    color: #FFF;
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+    top: 0px;
+    transition: top 400ms;
+    text-decoration: none !important;
+}
+
+.top-button:hover {
+    position: relative;
+    top: -5px;
+}
+
+.top-button a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.content {
+    padding: 20px;
+    background-color: #FADCC1;
+}
+
+.content p {
+    font-family: sans-serif;
+}
+
+.name {
+    font-family: 'Roboto Condensed', sans-serif !important;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #89422F;
+}
+
+.namesmall {
+    font-size: 2em;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.slogan {
+    margin-top: -30px;
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    font-weight: bold;
+    font-style: italic;
+    color: #AB2A00;
+}
+
+.slogansmall {
+    margin-top: -10px;
+    font-size: 3em;
+    text-align: right;
+    float: right;
+}
+
+.slogan emph {
+    font-family: 'Mr Dafoe', cursive !important;
+    font-style: normal !important;
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+
+.slogansmall emph {
+    font-size: 1em;
+    margin-left: 10px;
+}
+
+.title {
+    font-family: 'Mr Dafoe', cursive !important;
+    float: left;
+    font-size: 6em;
+    color: #000;
+    margin-top: -5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.pagecontent {
+    float: left;
+    background-color: #FEFEFE;
+    padding: 15px;
+    border-radius: 4px;
+    width: 60%;
+}
+
+.pagecontent p {
+    margin-top: 0px;
+}
+
+.picture {
+    float: right;
+}
+
+.picture img {
+    float: right;
+    width: 60%;
+}
